@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require '../app/models/student.rb'
+require '../lib/support/db_registry.rb'
 Bundler.require
 
 #
