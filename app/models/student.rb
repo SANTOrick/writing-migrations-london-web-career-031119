@@ -1,2 +1,3 @@
-class Student
+class Student < ActiveRecord::Base
+
 end
