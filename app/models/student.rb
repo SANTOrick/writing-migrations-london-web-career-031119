@@ -1,3 +1,3 @@
-class Student < ActiveRecord::Base[5.1]
+class Student
 
 end
