@@ -1,6 +1,6 @@
 class ChangeDatatypeForBirthdate < ActiveRecord::Base
 
-  def change_datatype_for_birthdates
+  def change
     change_column :students, :birthdate, :datetime
 end
 
