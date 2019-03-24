@@ -16,11 +16,11 @@ if ENV["SCHOOL_ENV"] == "test"
   ActiveRecord::Migration.verbose = false
 end
 
-def drop_db
-  DB.tables.each do |table|
-    DB.execute("DROP TABLE #{table}")
-  end
-end
+# def drop_db
+#   DB.tables.each do |table|
+#     DB.execute("DROP TABLE #{table}")
+#   end
+# end
 
 
 binding.pry
